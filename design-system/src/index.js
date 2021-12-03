@@ -19,6 +19,7 @@ export { default as ListItems } from "./components/ListItems";
 export { default as Navigation } from "./components/Navigation";
 export { default as ProductNav } from "./components/ProductNav";
 export { default as Select } from "./components/Select";
+export { default as Separator } from "./components/Separator";
 export { default as Snackbar } from "./components/Snackbar";
 export { default as SummaryTable } from "./components/SummaryTable";
 export { default as Title } from "./components/Title";
