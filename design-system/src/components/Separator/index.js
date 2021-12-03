@@ -13,7 +13,7 @@ const Separator = (props) => {
 export const StyledSeparator = styled.div`
   width: 100%;
   height: 1px;
-  background-color: ${colors.onBackground500};
+  background-color: rgba(12, 17, 24, 1);
   /* margin-bottom: 32px;
   margin-top: 32px; */
   opacity: 0.1;
