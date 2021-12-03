@@ -19,3 +19,4 @@ export { default as Navigation } from "./components/Navigation";
 export { default as Select } from "./components/Select";
 export { default as Snackbar } from "./components/Snackbar";
 export { default as SummaryTable } from "./components/SummaryTable";
+export { default as Title } from "./components/Title";
