@@ -1,580 +1,515 @@
 {
-  "color": {
-    "on surface": {
-      "50": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
+  "colors": {
+    "Primary": {
+      "Orange": {
+        "100%": {
+          "value": "#f15223",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#f4754f",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#f7977b",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#f9baa7",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#fcdcd3",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#feede9",
+          "type": "color"
+        }
       },
-      "100": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(221, 227, 235, 1)",
-        "type": "color"
+      "Purple": {
+        "100%": {
+          "value": "#5041ab",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#7367bc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#968dcd",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#b9b3dd",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#dcd9ee",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#edecf6",
+          "type": "color"
+        }
+      }
+    },
+    "Secondary": {
+      "Black": {
+        "100%": {
+          "value": "#040415",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#040415cc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#04041599",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#04041566",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#04041533",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#0404151a",
+          "type": "color"
+        }
       },
-      "200": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(188, 199, 213, 1)",
-        "type": "color"
+      "Yellow": {
+        "100%": {
+          "value": "#ffaa1b",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#ffaa1bcc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#ffaa1b99",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#ffaa1b66",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#ffaa1b33",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#ffaa1b1a",
+          "type": "color"
+        }
       },
-      "300": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(157, 171, 190, 1)",
-        "type": "color"
+      "Cyan": {
+        "100%": {
+          "value": "#06c1ff",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#06c1ffcc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#06c1ff99",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#06c1ff66",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#06c1ff33",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#06c1ff1a",
+          "type": "color"
+        }
       },
-      "400": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(128, 143, 165, 1)",
-        "type": "color"
+      "Light - Purple": {
+        "100%": {
+          "value": "#8a24ff1a",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#8a24ffcc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#8a24ff99",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#8a24ff66",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#8a24ff33",
+          "type": "color"
+        }
       },
-      "500": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(100, 116, 139, 1)",
-        "type": "color"
+      "Pink": {
+        "100%": {
+          "value": "#ff7d7d",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#ff7d7dcc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#ff7d7d99",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#ff7d7d66",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#ff7d7d33",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#ff7d7d1a",
+          "type": "color"
+        }
       },
-      "600": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(75, 91, 113, 1)",
-        "type": "color"
+      "Green": {
+        "100%": {
+          "value": "#2d9e64",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#2d9e64cc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#2d9e6499",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#2d9e6466",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#2d9e6433",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#2d9e641a",
+          "type": "color"
+        }
       },
-      "700": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(52, 66, 86, 1)",
-        "type": "color"
-      },
-      "800": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(31, 41, 56, 1)",
-        "type": "color"
-      },
-      "900": {
-        "category": "color",
-        "exportKey": "color",
-        "value": "rgba(12, 17, 24, 1)",
-        "type": "color"
+      "White": {
+        "100%": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "80%": {
+          "value": "#ffffffcc",
+          "type": "color"
+        },
+        "60%": {
+          "value": "#ffffff99",
+          "type": "color"
+        },
+        "40%": {
+          "value": "#ffffff66",
+          "type": "color"
+        },
+        "20%": {
+          "value": "#ffffff33",
+          "type": "color"
+        },
+        "10%": {
+          "value": "#ffffff1a",
+          "type": "color"
+        }
       }
     }
   },
-  "font": {
-    "headline 1": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 36,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+  "fontFamilies": {
+    "font-dm-sans": {
+      "value": "DM Sans",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "0": {
+      "value": 46,
+      "type": "lineHeights"
+    },
+    "1": {
+      "value": 34,
+      "type": "lineHeights"
+    },
+    "2": {
+      "value": 32,
+      "type": "lineHeights"
+    },
+    "3": {
+      "value": 28,
+      "type": "lineHeights"
+    },
+    "4": {
+      "value": 26,
+      "type": "lineHeights"
+    },
+    "5": {
+      "value": 24,
+      "type": "lineHeights"
+    }
+  },
+  "fontWeights": {
+    "font-dm-sans-0": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "font-dm-sans-1": {
+      "value": "Regular",
+      "type": "fontWeights"
+    }
+  },
+  "fontSizes": {
+    "0": {
+      "value": 14,
+      "type": "fontSizes"
+    },
+    "1": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "2": {
+      "value": 18,
+      "type": "fontSizes"
+    },
+    "3": {
+      "value": 22,
+      "type": "fontSizes"
+    },
+    "4": {
+      "value": 24,
+      "type": "fontSizes"
+    },
+    "5": {
+      "value": 36,
+      "type": "fontSizes"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "value": -1.6,
+      "type": "letterSpacing"
+    },
+    "1": {
+      "value": -0.8,
+      "type": "letterSpacing"
+    },
+    "2": {
+      "value": -0.4,
+      "type": "letterSpacing"
+    },
+    "3": {
+      "value": -0.36,
+      "type": "letterSpacing"
+    },
+    "4": {
+      "value": -0.3,
+      "type": "letterSpacing"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": 0,
+      "type": "paragraphSpacing"
+    }
+  },
+  "typography": {
+    "Headline 1": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 700,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Bold",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -1.6,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-0"
       },
       "lineHeight": {
-        "value": 46,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.0"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.5"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.0"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "headline 2": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 24,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Headline 2": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 700,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Bold",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.8,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-0"
       },
       "lineHeight": {
-        "value": 34,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.1"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.4"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.1"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "headline 3": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 22,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Headline 3": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 700,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Bold",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.4,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-0"
       },
       "lineHeight": {
-        "value": 32,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.2"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.3"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.2"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "headline 4": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 18,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Headline 4": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 700,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Bold",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.4,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-0"
       },
       "lineHeight": {
-        "value": 28,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.3"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.2"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.2"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "headline 5": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Headline 5": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 700,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Bold",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.36,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-0"
       },
       "lineHeight": {
-        "value": 26,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.4"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.1"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.3"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "headline 6": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Headline 6": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 700,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Bold",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.3,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-0"
       },
       "lineHeight": {
-        "value": 24,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.5"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.0"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.4"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "paragraph 1": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 18,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Paragraph 1": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Regular",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.4,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-1"
       },
       "lineHeight": {
-        "value": 28,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.3"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.2"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.2"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "paragraph 2": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Paragraph 2": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Regular",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.36,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-1"
       },
       "lineHeight": {
-        "value": 26,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.4"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.1"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.3"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     },
-    "paragraph 3": {
-      "category": "font",
-      "exportKey": "font",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "string"
-      },
+    "Paragraph 3": {
       "fontFamily": {
-        "value": "DM Sans",
-        "type": "string"
+        "value": "$fontFamilies.font-dm-sans"
       },
       "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "fontStyle": {
-        "value": "normal",
-        "type": "string"
-      },
-      "fontStretch": {
-        "value": "normal",
-        "type": "string"
-      },
-      "_fontStyleOld": {
-        "value": "Regular",
-        "type": "string"
-      },
-      "letterSpacing": {
-        "value": -0.3,
-        "type": "number",
-        "unit": "pixels"
+        "value": "$fontWeights.font-dm-sans-1"
       },
       "lineHeight": {
-        "value": 24,
-        "type": "number",
-        "unit": "pixel"
+        "value": "$lineHeights.5"
       },
-      "paragraphIndent": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
+      "fontSize": {
+        "value": "$fontSizes.0"
+      },
+      "letterSpacing": {
+        "value": "$letterSpacing.4"
       },
       "paragraphSpacing": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "string"
+        "value": "$paragraphSpacing.0"
       }
     }
   }
