@@ -9,6 +9,7 @@ export { colors, typography, spacing } from "./tokens";
 
 
 export { default as Button } from "./components/Button";
+export { default as Card } from "./components/Card";
 export { default as Carousel } from "./components/Carousel";
 export { default as Icon } from "./components/Icon";
 export { default as Select } from "./components/Select";
