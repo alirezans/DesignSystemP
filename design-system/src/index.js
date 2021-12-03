@@ -17,6 +17,7 @@ export { default as Icon } from "./components/Icon";
 export { default as MultilineInput } from "./components/MultilineInput";
 export { default as ListItems } from "./components/ListItems";
 export { default as Navigation } from "./components/Navigation";
+export { default as ProductNav } from "./components/ProductNav";
 export { default as Select } from "./components/Select";
 export { default as Snackbar } from "./components/Snackbar";
 export { default as SummaryTable } from "./components/SummaryTable";
