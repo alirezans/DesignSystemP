@@ -1,0 +1,43 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import ListItems from ".";
+import Card from "../Card";
+import productImage from "../Card/productImageSample.jpg";
+
+export const args = {
+  columns: 2,
+  };
+  
+  
+export const cardArgs = {
+  size: "medium",
+  name: "Nike Air Force 1 '07 LX",
+  image: productImage,
+  price: "95.00",
+  description: "Men's Shoe",
+};
+
+<Meta title="Components/ListItems" parameters={{
+    viewport: {
+      defaultViewport: 'mobile1'
+    }}}/>
+
+## ListItems
+
+ A container to hold product cards
+
+<Canvas>
+  <Story name="Default" args={args}>
+    {({ columns, ...args }) => (
+      <ListItems columns={columns}>
+        {[...Array(8)].map((e, i) => (
+          <Card key={i} {...cardArgs} />
+        ))}
+      </ListItems>
+    )}
+  </Story>
+</Canvas>
+
+## Props
+
+<ArgsTable of={ListItems} />
